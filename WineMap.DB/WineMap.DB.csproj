@@ -54,6 +54,7 @@
       <DependentUpon>201610191528157_CreateDB.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\Country.cs" />
     <Compile Include="Models\Wine.cs" />
     <Compile Include="WineMapDB.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

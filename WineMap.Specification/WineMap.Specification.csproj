@@ -40,14 +40,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Country.cs" />
-    <Compile Include="Grape.cs" />
-    <Compile Include="Region.cs" />
-    <Compile Include="Wine.cs" />
+    <Compile Include="Models\Country.cs" />
+    <Compile Include="Models\Grape.cs" />
+    <Compile Include="Models\Price.cs" />
+    <Compile Include="Models\Region.cs" />
+    <Compile Include="Models\Wine.cs" />
+    <Compile Include="Models\WineColor.cs" />
+    <Compile Include="Models\WineSugar.cs" />
+    <Compile Include="Models\WineType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="WineColor.cs" />
-    <Compile Include="WineSugar.cs" />
-    <Compile Include="WineType.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -1,4 +1,4 @@
-﻿namespace WineMap.Specification
+﻿namespace WineMap.Specification.Models
 {
     public enum WineSugar
     {

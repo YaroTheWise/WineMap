@@ -1,14 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace WineMap.Specification
+﻿namespace WineMap.Specification.Models
 {
     public class Wine
     {
-        public int WineId { get; set; }
+        public int? WineId { get; set; }
         public string Name { get; set; }
         public WineType Type { get; set; }
         public WineColor Color { get; set; }
@@ -20,7 +14,10 @@ namespace WineMap.Specification
         public string Description { get; set; }
         public string History { get; set; }
         public string[] Tegs { get; set; }
-        public int[] Links { get; set; }
+        //todo meals
+        //public int[] Links { get; set; }
         public string PhotoUrl { get; set; }
+
+        public Price[] Prices { get; set; }
     }
 }

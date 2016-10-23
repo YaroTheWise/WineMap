@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using WineMap.Specification;
+using WineMap.Specification.Models;
 
 namespace WineMap.Web.Models.Dto
 {

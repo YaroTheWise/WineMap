@@ -53,9 +53,18 @@
     <Compile Include="Migrations\201610191528157_CreateDB.Designer.cs">
       <DependentUpon>201610191528157_CreateDB.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201610230949357_AddSevenTables.cs" />
+    <Compile Include="Migrations\201610230949357_AddSevenTables.Designer.cs">
+      <DependentUpon>201610230949357_AddSevenTables.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Country.cs" />
+    <Compile Include="Models\Grape.cs" />
+    <Compile Include="Models\Price.cs" />
+    <Compile Include="Models\Region.cs" />
+    <Compile Include="Models\Tag.cs" />
     <Compile Include="Models\Wine.cs" />
+    <Compile Include="Models\WinePhoto.cs" />
     <Compile Include="WineMapDB.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -66,6 +75,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201610191528157_CreateDB.resx">
       <DependentUpon>201610191528157_CreateDB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201610230949357_AddSevenTables.resx">
+      <DependentUpon>201610230949357_AddSevenTables.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

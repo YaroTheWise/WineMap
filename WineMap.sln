@@ -3,10 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WineMap.Web", "WineMap.Web\WineMap.Web.csproj", "{8AF353EA-8062-483A-8A87-130CB2445EFD}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WineMap.Web.Tests", "WineMap.Web.Tests\WineMap.Web.Tests.csproj", "{C0CF46FB-D3BE-43B2-8BEC-7CFF894280E9}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WineMap.Specification", "WineMap.Specification\WineMap.Specification.csproj", "{6CD79E0F-6AC8-46C5-A544-28B2A83929BC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WineMap.DB", "WineMap.DB\WineMap.DB.csproj", "{D7D26064-EB57-445C-A7AE-A4C4F8FE1800}"
@@ -17,14 +13,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8AF353EA-8062-483A-8A87-130CB2445EFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8AF353EA-8062-483A-8A87-130CB2445EFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8AF353EA-8062-483A-8A87-130CB2445EFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8AF353EA-8062-483A-8A87-130CB2445EFD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C0CF46FB-D3BE-43B2-8BEC-7CFF894280E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C0CF46FB-D3BE-43B2-8BEC-7CFF894280E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C0CF46FB-D3BE-43B2-8BEC-7CFF894280E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C0CF46FB-D3BE-43B2-8BEC-7CFF894280E9}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6CD79E0F-6AC8-46C5-A544-28B2A83929BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6CD79E0F-6AC8-46C5-A544-28B2A83929BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6CD79E0F-6AC8-46C5-A544-28B2A83929BC}.Release|Any CPU.ActiveCfg = Release|Any CPU

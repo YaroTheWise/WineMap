@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WineMap.Specification", "Wi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WineMap.DB", "WineMap.DB\WineMap.DB.csproj", "{D7D26064-EB57-445C-A7AE-A4C4F8FE1800}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WineMap.WebApp", "WineMap.WebApp\WineMap.WebApp.csproj", "{42D447DE-47DB-4FE6-A880-0AE1795C85A0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{D7D26064-EB57-445C-A7AE-A4C4F8FE1800}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7D26064-EB57-445C-A7AE-A4C4F8FE1800}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7D26064-EB57-445C-A7AE-A4C4F8FE1800}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42D447DE-47DB-4FE6-A880-0AE1795C85A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42D447DE-47DB-4FE6-A880-0AE1795C85A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42D447DE-47DB-4FE6-A880-0AE1795C85A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42D447DE-47DB-4FE6-A880-0AE1795C85A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

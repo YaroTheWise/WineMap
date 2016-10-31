@@ -22,6 +22,7 @@ namespace WineMap.DB
         public virtual DbSet<Tag> Tags { get; set; }
         public virtual DbSet<Region> Regions { get; set; }
         public virtual DbSet<WinePhoto> WinePhotos { get; set; }
+        public virtual DbSet<User> User { get; set; }
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
